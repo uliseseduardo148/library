@@ -1,29 +1,39 @@
-# README #
+# Proyecto librería
 
-This README would normally document whatever steps are necessary to get your application up and running.
+_Proyecto para evaluación al puesto desarrollador web_
 
-### What is this repository for? ###
+## Comenzando 🚀
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+_Clonar el repositorio con git clone._
 
-### How do I get set up? ###
+### Instalación 🔧
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-### Contribution guidelines ###
+```
+git clone ...
+```
+_Ejecutar lo siguiente_
+```
+composer install
+```
+```
+php artisan key:generate
+```
+_Configurar el archivo .env _
+```
+php artisan migrate
+```
+_Ejecutar los seeders _
+```
+php artisan db:seed
+```
+```
+php artisan serve
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+## Autores ✒️
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* **Ulises Eduardo López Hernández** 
+
